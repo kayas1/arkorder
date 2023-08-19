@@ -1,0 +1,30 @@
+@keyframes loading-screen{
+    0%{
+        opacity: 0;
+    }
+    15%{
+        opacity: 1;
+    }
+    85%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.loading-screen_animation{
+    animation:loading-screen 3s ease-in-out;
+}
+
+@keyframes loading-mainScreen{
+    0%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+}
+.loading-mainScreen_animation{
+    animation:loading-mainScreen 3s ease-in-out;
+}

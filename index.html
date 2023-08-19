@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,18 +7,18 @@
     <title>Arkorder</title>
   </head>
   <body>
-    <header class="title">방주지령 미니 게임!</header>
+    <header class="title">방주지령</header>
 
     <form class="hidden login-form">
       <input
         type="text"
         placeholder="닉네임을 입력해주세요!"
         required
-        maxlength="15"
+        maxlength="10"
       />
       <input type="submit" value="확인!" />
     </form>
-    <h1 class="hidden greeting"></h1>
-    <script src="js/loading-screen.js"></script>
+    <img class="background_img" src="img/background/login_bg.png" />
+    <script src="js/greetings.js"></script>
   </body>
 </html>
