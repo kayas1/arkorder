@@ -35,3 +35,21 @@ bgImage.src=`img/${chosenImage}`;
 bgImage.classList.add("loading-mainScreen_animation");
 bgImage.classList.add("background_img");
 document.body.appendChild(bgImage);
+
+const button = document.querySelector(".hiding-button");
+const btn =document.querySelector(".btns");
+
+function showingComponent(){
+    btn.classList.toggle("hidden");
+    nickname.classList.toggle("hidden");
+    button.classList.toggle("hidden");
+}
+
+function hidingComponent(){
+    btn.classList.toggle("hidden");
+    nickname.classList.toggle("hidden");
+    button.classList.toggle("hidden");
+    setTimeout(showingComponent,7000);
+}
+
+button.addEventListener("click",hidingComponent);

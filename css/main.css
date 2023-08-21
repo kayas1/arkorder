@@ -1,12 +1,20 @@
 .main-head{
     display: flex;
-    justify-content: flex-start;
-    width:100vw;
+    justify-content: space-between;
+    width:95vw;
     height: 5vh;
     padding-left:3vw;
+    box-sizing: border-box;
 }
-.main-head .nickname{
+.hiding-button{
+    opacity:0.7;
+    background-color: aquamarine;
+    border-radius: 1vh;
+    will-change: auto;
+}
+.nickname{
     background-color: rgba(0,0,0,0.4);
+    border-radius: 1vh;
     height:8vh;
     width:15vw;
     font-size: 3vh;
@@ -16,17 +24,36 @@
     box-sizing: border-box;
     color:white;
 }
-.main-image{
+.main{
     display: flex;
     width:100vw;
     height:95vh;
     position:relative;
-    flex-direction: column;
+    justify-content: flex-end;
 }
-.main-image img{
+.main img{
     position:absolute;
     bottom: -10vh;
     left:15vw;
     width:auto;
     height: 90vh;
+}
+.btns{
+    display: flex;
+    padding-top: 2vh;
+    padding-right: 5vw;
+}
+.btns a{
+    text-decoration: none;
+    margin-left: 2vh;
+    height:15vh;
+    width:15vh;
+    border:1px solid black;
+    border-radius: 3vh;
+    background-color: antiquewhite;
+    font-size: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(133, 205, 75);
 }
