@@ -16,3 +16,17 @@
     box-sizing: border-box;
     color:white;
 }
+.main-image{
+    display: flex;
+    width:100vw;
+    height:95vh;
+    position:relative;
+    flex-direction: column;
+}
+.main-image img{
+    position:absolute;
+    bottom: -10vh;
+    left:15vw;
+    width:auto;
+    height: 90vh;
+}
